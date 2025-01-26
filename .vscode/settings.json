@@ -1,3 +1,8 @@
 {
-    "java.configuration.updateBuildConfiguration": "interactive"
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "editor.codeActionsOnSave": {
+
+    },
+    "editor.fontLigatures": false,
+    "editor.fontWeight": "normal"
 }
