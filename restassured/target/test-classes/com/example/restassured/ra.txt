@@ -1,9 +1,0 @@
-Rest Assured  :
-
-Base URI 
- Request specification  
- Response 
-
- Non BDD -> get, post, put, delete
- BDD -> 
-      How to print the reponse  

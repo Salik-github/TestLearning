@@ -2,11 +2,9 @@ package com.example.ofcProject;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.time.Duration;
 import java.util.List;
-import java.util.NoSuchElementException;
 import java.util.Optional;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentMap;
@@ -21,7 +19,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.devtools.DevTools;
 import org.openqa.selenium.devtools.v131.network.Network;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
@@ -62,7 +59,7 @@ public class getapi {
         sheet = workbook.createSheet("Dyn");
 
         // Set up WebDriver
-        WebDriverManager.chromedriver().setup();
+        WebDriverManager.chromedriver().browserVersion("latest").setup();
         driver = new ChromeDriver();
         driver.manage().window().maximize();
 
@@ -100,7 +97,7 @@ public class getapi {
        // driver.get("https://demoentrilycrm.gaipp.com/signin");
         driver.get("https://crm.entrily.com/signin");
         driver.findElement(By.id("user")).sendKeys("admission@entrily.com");
-        driver.findElement(By.id("password")).sendKeys("xIt7JneyTItfki4AVZQr9Q==");
+        driver.findElement(By.id("password")).sendKeys("");
         driver.findElement(By.id("submit")).click();
 
         Thread.sleep(9000);
