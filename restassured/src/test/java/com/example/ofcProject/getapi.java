@@ -96,8 +96,8 @@ public class getapi {
         // Navigate and Perform Actions
        // driver.get("https://demoentrilycrm.gaipp.com/signin");
         driver.get("https://crm.entrily.com/signin");
-        driver.findElement(By.id("user")).sendKeys("admission@entrily.com");
-        driver.findElement(By.id("password")).sendKeys("");
+        driver.findElement(By.id("user")).sendKeys("vinith95@gmail.com");
+        driver.findElement(By.id("password")).sendKeys("123456");
         driver.findElement(By.id("submit")).click();
 
         Thread.sleep(9000);
@@ -107,7 +107,8 @@ public class getapi {
         //         .until(ExpectedConditions.elementToBeClickable(elements.get(1)));
         // elements.get(1).click();
 
-        setelement();
+      //  setelement();
+        setelementforAgent();
 
         // Save and Close Workbook
         saveWorkbook();
@@ -125,6 +126,26 @@ public class getapi {
     {
         Select selE = new Select(sElement);
         selE.selectByIndex(0);
+    }
+    public void setelementforAgent() throws InterruptedException
+    {
+        WebElement dateFilter = driver.findElement(By.id("drop-down-menu"));
+        dateFilter.click();
+        WebElement AllFilter  = driver.findElement(By.xpath("//a[text()='All']"));
+        AllFilter.click();
+        Thread.sleep(20000);
+        getSingleElement(latestactivity);
+        getElement(student);
+        datafilters() ;
+        getElement(taskxpath);
+        getSingleElement(AllTask);
+        getSingleElement(listTask);
+        getElement(courseSearch);
+        getElement(CourseSearchAll);
+        getElement(applicatoin);
+        datafilters() ;
+        getElement(commission);
+
     }
     public void setelement() throws InterruptedException {
         // WebElement dateFilter = driver.findElement(By.id("dropdownMenuButton4"));
