@@ -27,7 +27,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class getapi {
 
-    String FilePath = "src\\test\\java\\com\\example\\resources\\lIVEdata.xlsx";
+   
 
     XSSFWorkbook workbook;
     XSSFSheet sheet;
