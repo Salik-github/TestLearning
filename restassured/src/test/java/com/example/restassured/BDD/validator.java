@@ -14,7 +14,6 @@ public class validator {
     {
         RestAssured.baseURI ="http://localhost:3000/users";
         ResponseBody response =  RestAssured.given().request(Method.GET,"/2").body();
-        response.
         System.out.println(response.asPrettyString());
     }
 }

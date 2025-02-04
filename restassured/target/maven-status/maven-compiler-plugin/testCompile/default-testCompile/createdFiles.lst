@@ -1,2 +1,6 @@
+com/example/restassured/BDD/getReq.class
+com/example/AppTest.class
+com/example/restassured/BDD/validator.class
 com/example/ofcProject/getapi.class
 com/example/ofcProject/alldata.class
+com/example/restassured/nonBDD/getreq.class

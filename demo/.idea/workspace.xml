@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4e17d9d1-1c40-4d5e-9d42-fd534d9b4005" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../restassured/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../restassured/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../restassured/src/test/java/com/example/ofcProject/getapi.java" beforeDir="false" afterPath="$PROJECT_DIR$/../restassured/src/test/java/com/example/ofcProject/getapi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../restassured/src/test/java/com/example/restassured/BDD/validator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../restassured/src/test/java/com/example/restassured/BDD/validator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../restassured/src\test\java\com\example\resources\lIVEdata.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../restassured/target/classes/com/example/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/../restassured/target/classes/com/example/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../restassured/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../restassured/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../restassured/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../restassured/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../restassured/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../restassured/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../restassured/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../restassured/target/sample-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../restassured/target/surefire-reports/Surefire suite/Surefire test.html" beforeDir="false" afterPath="$PROJECT_DIR$/../restassured/target/surefire-reports/Surefire suite/Surefire test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../restassured/target/surefire-reports/Surefire suite/Surefire test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../restassured/target/surefire-reports/Surefire suite/Surefire test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../restassured/target/surefire-reports/TEST-com.example.ofcProject.getapi.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../restassured/target/surefire-reports/TEST-com.example.restassured.BDD.validator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../restassured/target/surefire-reports/TEST-com.example.restassured.nonBDD.getreq.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../restassured/target/surefire-reports/com.example.ofcProject.getapi.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../restassured/target/surefire-reports/com.example.restassured.BDD.validator.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../restassured/target/surefire-reports/com.example.restassured.nonBDD.getreq.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../restassured/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/../restassured/target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../restassured/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../restassured/target/surefire-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../restassured/target/surefire-reports/junitreports/TEST-com.example.ofcProject.getapi.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../restassured/target/surefire-reports/junitreports/TEST-com.example.restassured.BDD.validator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../restassured/target/surefire-reports/junitreports/TEST-com.example.restassured.nonBDD.getreq.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../restassured/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../restassured/target/surefire-reports/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../restassured/target/test-classes/com/example/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../restassured/target/test-classes/com/example/AppTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../restassured/target/test-classes/com/example/ofcProject/alldata.class" beforeDir="false" afterPath="$PROJECT_DIR$/../restassured/target/test-classes/com/example/ofcProject/alldata.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../restassured/target/test-classes/com/example/ofcProject/getapi.class" beforeDir="false" afterPath="$PROJECT_DIR$/../restassured/target/test-classes/com/example/ofcProject/getapi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../restassured/target/test-classes/com/example/resources/LIVEdata.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../restassured/target/test-classes/com/example/resources/data.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../restassured/target/test-classes/com/example/restassured/BDD/getReq.class" beforeDir="false" afterPath="$PROJECT_DIR$/../restassured/target/test-classes/com/example/restassured/BDD/getReq.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../restassured/target/test-classes/com/example/restassured/BDD/sample.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../restassured/target/test-classes/com/example/restassured/BDD/validator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../restassured/target/test-classes/com/example/restassured/BDD/validator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../restassured/target/test-classes/com/example/restassured/nonBDD/getreq.class" beforeDir="false" afterPath="$PROJECT_DIR$/../restassured/target/test-classes/com/example/restassured/nonBDD/getreq.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../restassured/target/test-classes/com/example/restassured/ra.txt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Salik-Mo&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:Salik-github/TestLearning.git&quot;,
+    &quot;accountId&quot;: &quot;b3cb5c73-d6c0-458b-8302-4eeed6f260bd&quot;
+  }
+}</component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2sZHdTuBVQR1om4piw6AuU7nSdS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.App.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/resources" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.App" />
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4e17d9d1-1c40-4d5e-9d42-fd534d9b4005" name="Changes" comment="" />
+      <created>1738656264205</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1738656264205</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/App.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

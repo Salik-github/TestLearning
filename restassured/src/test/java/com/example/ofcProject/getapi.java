@@ -50,7 +50,7 @@ public class getapi {
     String latestactivity  ="//a[text()='Latest Activities']";
   
 
-    @Test
+    @Test///home/prakashni/Documents/TestLearning/restassured/src/test/java/com/example/resources
     public void method() throws InterruptedException, IOException {
         // Create directories for the file path
 
@@ -83,7 +83,7 @@ public class getapi {
             int statusCode = response.getResponse().getStatus();
             double responseTime = System.currentTimeMillis();
 
-            if (url.contains("crm.entrily.com/api")) {
+            if (url.contains("crm.studynowportal.com/api")) {
                 if (timestamp.containsKey(responseID)) {
                     double requestStartTime = timestamp.get(responseID);
                     double timeTaken = responseTime - requestStartTime;
@@ -95,9 +95,9 @@ public class getapi {
 
         // Navigate and Perform Actions
        // driver.get("https://demoentrilycrm.gaipp.com/signin");
-        driver.get("https://crm.entrily.com/signin");
-        driver.findElement(By.id("user")).sendKeys("vinith95@gmail.com");
-        driver.findElement(By.id("password")).sendKeys("123456");
+        driver.get("https://crm.studynowportal.com");
+        driver.findElement(By.id("user")).sendKeys("partners@studynow.org.uk");
+        driver.findElement(By.id("password")).sendKeys("StudyNowLTD@2025#");
         driver.findElement(By.id("submit")).click();
 
         Thread.sleep(9000);
@@ -141,7 +141,7 @@ public class getapi {
         getSingleElement(AllTask);
         getSingleElement(listTask);
         getElement(courseSearch);
-        getElement(CourseSearchAll);
+        getSingleElement(CourseSearchAll);
         getElement(applicatoin);
         datafilters() ;
         getElement(commission);
@@ -155,7 +155,7 @@ public class getapi {
         dateFilter.click();
         WebElement AllFilter  = driver.findElement(By.xpath("//a[text()='All']"));
         AllFilter.click();
-        Thread.sleep(20000);
+        Thread.sleep(5000);
        
         getSingleElement(latestactivity);
         getElement(student);
@@ -186,7 +186,7 @@ public class getapi {
                 .until(ExpectedConditions.elementToBeClickable(e));
         clickElement(e);
         try {
-            Thread.sleep(20000);
+            Thread.sleep(4000);
         } catch (InterruptedException e1) {
             // TODO Auto-generated catch block
             e1.printStackTrace();
@@ -199,7 +199,7 @@ public class getapi {
         new WebDriverWait(driver, Duration.ofSeconds(10))
                 .until(ExpectedConditions.elementToBeClickable(e.get(1)));
         clickElement(e.get(1));
-        Thread.sleep(20000);
+        Thread.sleep(4000);
 
     }
 
@@ -222,6 +222,7 @@ public class getapi {
 
     }
 
+    String FilePath = "src/test/java/com/example/resources/newWLAPIloader.xlsx";
     public void saveWorkbook() throws IOException {
         try (FileOutputStream fileOut = new FileOutputStream(FilePath)) {
             workbook.write(fileOut);

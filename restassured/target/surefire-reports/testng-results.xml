@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-01T10:44:32 IST" name="Surefire suite" finished-at="2025-02-01T10:48:18 IST" duration-ms="225985">
+  <suite started-at="2025-02-04T13:16:24 IST" name="Surefire suite" finished-at="2025-02-04T13:16:24 IST" duration-ms="86">
     <groups>
     </groups>
-    <test started-at="2025-02-01T10:44:32 IST" name="Surefire test" finished-at="2025-02-01T10:48:18 IST" duration-ms="225985">
-      <class name="com.example.ofcProject.getapi">
-        <test-method signature="method()[pri:0, instance:com.example.ofcProject.getapi@71623278]" started-at="2025-02-01T10:44:32 IST" name="method" finished-at="2025-02-01T10:48:18 IST" duration-ms="225948" status="PASS">
+    <test started-at="2025-02-04T13:16:24 IST" name="Surefire test" finished-at="2025-02-04T13:16:24 IST" duration-ms="86">
+      <class name="com.example.log4jExample.Basic">
+        <test-method signature="firstMethod()[pri:0, instance:com.example.log4jExample.Basic@465232e9]" started-at="2025-02-04T13:16:24 IST" name="firstMethod" finished-at="2025-02-04T13:16:24 IST" duration-ms="18" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- method -->
-      </class> <!-- com.example.ofcProject.getapi -->
+        </test-method> <!-- firstMethod -->
+      </class> <!-- com.example.log4jExample.Basic -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->
 </testng-results>
